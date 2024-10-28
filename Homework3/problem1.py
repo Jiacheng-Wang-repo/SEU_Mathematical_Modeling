@@ -1,8 +1,5 @@
 import pandas as pd
 import numpy as np
-from openpyxl import Workbook
-from openpyxl.utils.dataframe import dataframe_to_rows
-from gurobipy import *
 
 def load_data(data_path):
     """加载数据，并跳过第一行"""
